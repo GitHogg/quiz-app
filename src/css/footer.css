@@ -1,8 +1,15 @@
+
+footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
 nav ul {
     height: 5rem;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    border-top: 1px solid black;
+    border-top: 0.063rem solid black;
     background-color: white;
 }

@@ -1,0 +1,39 @@
+.card {
+    position: relative;
+    border: 0.063rem solid black;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card__bookmark {
+    position: absolute;
+    top: -0.5rem;
+    right: 1rem;
+}
+
+.card__button {
+    margin-top: 1rem;
+    width: 8rem;
+    height: 2rem;
+    color: white;
+    background: black;
+    border-radius: 1rem;
+}
+
+.card__hints {
+    width: 100%;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card__hints li {
+    padding: 0.2rem;
+    border: 0.063rem solid black;
+    border-radius: 0.3rem;
+
+}

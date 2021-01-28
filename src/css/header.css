@@ -1,8 +1,12 @@
 header {
+    top: 0;
+    width: 100%;
+    position: fixed;
     height: 5rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-bottom: 1px solid black;
+    border-bottom: 0.063rem solid black;
     background-color: white;
+    z-index: 10;
 }
